@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { addFruits, getFruits, updateFruits, deleteFruits } from "./fruit.controller.js";
+import { addFruits, getFruits, updateFruits, deleteFruits } from "../controllers/fruit.controller.js";
 
 
 const router = Router()
